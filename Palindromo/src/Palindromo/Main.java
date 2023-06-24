@@ -1,7 +1,7 @@
 package Palindromo;
-
 import java.util.Scanner;
 
+//Programa com o intuito de identificar se um número é ou não palindromo
 public class Main {
     public static void main(String[] args) {
 

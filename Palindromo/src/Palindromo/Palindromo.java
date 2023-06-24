@@ -4,7 +4,8 @@ public class Palindromo {
     private int numero;
 
     public String validacaoPalindromo(int numero) {
-        String numeroToString = Integer.toString(numero);
+        this.numero = numero;
+        String numeroToString = Integer.toString(this.numero);
         String numeroReverso = "";
         char temp;
         boolean palindromo;
